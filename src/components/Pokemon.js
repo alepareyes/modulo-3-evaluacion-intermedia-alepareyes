@@ -2,7 +2,7 @@ import React from 'react';
 import '../stylesheet/pokecard.scss';
 
 function Pokemon(props) {
-
+  debugger
   let types = props.types;
 
   console.log(types);
@@ -10,7 +10,15 @@ function Pokemon(props) {
     <li className='pokemon border--medium'>
       <img className="img" src={props.image} />
       <h3 className="name border--name">{props.pokemon}</h3>
-      <p className="type">type</p>
+      <p className="type">
+        {types.map((type) => {
+          return (
+            <li>
+              {type}
+            </li>
+          );
+        })}
+      </p>
     </li>
   )
 }

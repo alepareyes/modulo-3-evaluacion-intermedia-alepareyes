@@ -1,5 +1,4 @@
 import React from 'react';
-import Pokemon from './Pokemon';
 
 function PokeList(props) {
   console.log(props.pokemons)
@@ -8,7 +7,6 @@ function PokeList(props) {
     <div>
       <ul className="poke-list">
         {props.children}
-        <Pokemon />
       </ul>
     </div>
   )
