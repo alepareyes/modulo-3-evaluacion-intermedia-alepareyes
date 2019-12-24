@@ -1,3 +1,15 @@
+
+.number {
+position: absolute;
+margin: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+}
+
+.item {
+  list-style: none;
+}
+
 .pokemon {
   display: flex;
   flex-direction: column;
@@ -13,6 +25,7 @@
 
 .name {
   margin: 0;
+  text-transform: capitalize;
 }
 
 .img {
@@ -26,6 +39,20 @@
   margin: 0;
   flex-wrap: wrap;
 
+}
+
+.type {
+  display: inline-flex;
+  margin: 5px;
+
+  &__item {
+    background: rgb(219, 158, 123);
+    text-transform: uppercase;
+    padding: 3px;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
 }
 
 .title {
