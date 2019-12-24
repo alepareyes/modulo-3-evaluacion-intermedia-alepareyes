@@ -7,7 +7,7 @@ function Pokemon(props) {
 
   console.log(types);
   return (
-    <li className='pokemon border--medium'>
+    <li className='pokemon'>
       <img className="img" src={props.image} />
       <h3 className="name border--name">{props.pokemon}</h3>
       <p className="type">
