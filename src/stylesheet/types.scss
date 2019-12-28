@@ -1,0 +1,88 @@
+
+.type {
+
+  &__bug {
+      background: #729f3f;
+  }
+
+  &__dark {
+    background: #707070;
+  }
+
+  &__dragon {
+    background: #53a4ce;
+    background: -moz-linear-gradient(-45deg,  #53a4ce 50%, #f16e57 51%);
+    background: -webkit-linear-gradient(-45deg,  #53a4ce 50%,#f16e57 51%);
+    background: linear-gradient(135deg,  #53a4ce 50%,#f16e57 51%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53a4ce', endColorstr='#f16e57',GradientType=1 );
+      }
+
+  &__electric {
+    background: #efd636;
+  }
+
+  &__fairy {
+    background: #F4B8E9;
+ 
+  }
+
+  &__fighting {
+    background: #D56723;
+  }
+
+  &__fire {
+   background: #f67c29;
+  }
+
+  &__flying {
+    background: #3dc7ef;
+    background: -moz-linear-gradient(-45deg,  #3dc7ef 50%, #bdb9b8 51%);
+    background: -webkit-linear-gradient(-45deg,  #3dc7ef 50%,#bdb9b8 51%);
+    background: linear-gradient(135deg,  #3dc7ef 50%,#bdb9b8 51%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dc7ef', endColorstr='#bdb9b8',GradientType=1 );
+  }
+
+  &__ghost {
+    background: #7B62A3;
+  }
+
+  &__grass {
+    background: #9bcc50;
+   }
+
+ &__ground {
+  background: #f8de3f;
+  background: -moz-linear-gradient(-45deg,  #f8de3f 50%, #ab9942 51%);
+  background: -webkit-linear-gradient(-45deg,  #f8de3f 50%,#ab9942 51%);
+  background: linear-gradient(135deg,  #f8de3f 50%,#ab9942 51%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8de3f', endColorstr='#ab9942',GradientType=1 );
+  }
+
+  &__ice {
+    background: #51C3E6;
+  }
+
+  &__normal {
+    background: #A4ACAF;
+  }
+
+  &__poison {
+    background: #B97FC9;
+  }
+
+  &__psychic {
+    background: #EF65B9;
+  }
+
+  &__rock {
+    background: #A38C21;
+  }
+
+  &__steel {
+    background: #9EB6B8;
+  }
+
+  &__water {
+    background: #4491C4;
+  }
+}
